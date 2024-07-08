@@ -12,8 +12,8 @@ The major changes from DnR v2 are as follows:
 
 DnR v3 variants are available via Zenodo. See below for links.
 
-| Variant | Variant Code | Link |
-| -- | -- | -- |
+| Variant | Variant Code | Size | Link |
+| -- | -- | -- | -- |
 | Multilingual | multi | TBA |
 | English | eng | TBA |
 | German | deu | TBA |
@@ -86,3 +86,8 @@ tar -xvf "dnr-v3-$VARIANT-audio.test.tar.gz"
         └── test/
             └── {clip-id}.csv
 ```
+
+
+## License
+
+Divide and Remaster v3 is released under the CC BY-SA 4.0 license. See wiki for full license information.
