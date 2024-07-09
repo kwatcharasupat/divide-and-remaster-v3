@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/divide-and-remaster-v3.iml" filepath="$PROJECT_DIR$/.idea/divide-and-remaster-v3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../divide-and-remaster-v3.wiki/.idea/divide-and-remaster-v3.wiki.iml" filepath="$PROJECT_DIR$/../divide-and-remaster-v3.wiki/.idea/divide-and-remaster-v3.wiki.iml" />
+    </modules>
+  </component>
+</project>
