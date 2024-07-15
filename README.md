@@ -10,6 +10,14 @@ The major changes from DnR v2 are as follows:
 
 **See [wiki](https://github.com/kwatcharasupat/divide-and-remaster-v3/wiki) for instructions on using this dataset**.
 
+## Model
+
+For the model trained on DnR v3, go [here](https://github.com/kwatcharasupat/bandit-v2)
+
+## Recreating the dataset
+
+The source code for recreating the dataset will be made available in this repository by September. (You can imagine that pulling data from 40 different datasets leads to a very messy source code 😭. I'm trying to standardize it so that it's easier to develop on in future iterations)
+
 ## License
 
 Divide and Remaster v3 is released under the CC BY-SA 4.0 license. See wiki for full license information of each source dataset.
