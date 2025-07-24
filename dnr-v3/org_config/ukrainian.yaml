@@ -1,0 +1,40 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-ukrainian-smoliakov
+  subset: full/48k
+
+data:
+  sources:
+    - glob: ukrainian-tts/dataset_lada_trimmed/accept/*.wav
+      language: ukr
+      gender: female
+      speaker_id: lada
+      split: train
+
+    - glob: ukrainian-tts/dataset_tetiana_trimmed/accept/*.wav
+      language: ukr
+      gender: female
+      speaker_id: tetiana
+      split: test
+
+    - glob: ukrainian-tts/dataset_mykyta_trimmed/accept/*.wav
+      language: ukr
+      gender: male
+      speaker_id: mykyta
+      split: test
+
+    - glob: ukrainian-tts/dataset_oleksa/*.ogg
+      language: ukr
+      gender: male
+      speaker_id: oleksa
+      split: train
+
+path:
+  manifest: ukrainian-tts/manifest.csv
+
+seed: 42

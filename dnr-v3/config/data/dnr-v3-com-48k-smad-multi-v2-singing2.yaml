@@ -1,0 +1,32 @@
+speech:
+  - subset: default
+    clone:
+      src: /fsx_vfx/projects/aa-cass/data/dnr-variants/dnr-v3-com-48k-smad-multi-v2
+      subset: multi-v2b
+      submix: speech
+
+music:
+  - subset: default
+    clone:
+      src: ${oc.env:CLEANED_DATA_ROOT}/dnr-v3-com-48k-mne-intermediates-v2
+      subset: default
+      submix: music
+  
+music_w_singing:
+  - subset: default
+    src: 
+       - music-fma/full-smad/com/vox-music/48k-lr
+
+sfx_fg:
+  - subset: default
+    clone:
+      src: ${oc.env:CLEANED_DATA_ROOT}/dnr-v3-com-48k-mne-intermediates-v2
+      subset: default
+      submix: sfx_fg
+
+sfx_bg:
+  - subset: default
+    clone:
+      src: ${oc.env:CLEANED_DATA_ROOT}/dnr-v3-com-48k-mne-intermediates-v2
+      subset: default
+      submix: sfx_bg

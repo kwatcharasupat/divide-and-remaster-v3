@@ -1,0 +1,84 @@
+# cc 2.0 licenses
+
+## cc-by-nc
+
+- url: 'http://creativecommons.org/licenses/by-nc/2.0/fr/'
+  license: cc-by-nc/2.0/fr
+  license_family: cc-by-nc
+
+- url: 'http://creativecommons.org/licenses/by-nc/2.0/uk/'
+  license: cc-by-nc/2.0/uk
+  license_family: cc-by-nc
+
+- url: 'http://creativecommons.org/licenses/by-nc/2.0/cl/'
+  license: cc-by-nc/2.0/cl
+  license_family: cc-by-nc
+
+## cc-by-nc-sa
+
+- url: 'http://creativecommons.org/licenses/by-nc-sa/2.0/'
+  license: cc-by-nc-sa/2.0
+  license_family: cc-by-nc-sa
+
+- url: 'http://creativecommons.org/licenses/by-nc-sa/2.0/de/'
+  license: cc-by-nc-sa/2.0/de
+  license_family: cc-by-nc-sa
+
+- url: 'http://creativecommons.org/licenses/by-nc-sa/2.0/fr/'
+  license: cc-by-nc-sa/2.0/fr
+  license_family: cc-by-nc-sa
+
+- url: 'http://creativecommons.org/licenses/by-nc-sa/2.0/uk/'
+  license: cc-by-nc-sa/2.0/uk
+  license_family: cc-by-nc-sa
+
+  
+## cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.0/'
+  license: cc-by-nc-nd/2.0
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.0/be/'
+  license: cc-by-nc-nd/2.0/be
+  license_family: cc-by-nc-nd
+
+## cc-by
+
+- url: 'http://creativecommons.org/licenses/by/2.0/fr/'
+  license: cc-by/2.0/fr
+  license_family: cc-by
+
+- url: 'http://creativecommons.org/licenses/by/2.0/uk/'
+  license: cc-by/2.0/uk
+  license_family: cc-by
+
+## cc-by-sa
+
+- url: 'http://creativecommons.org/licenses/by-sa/2.0/fr/'
+  license: cc-by-sa/2.0/fr
+  license_family: cc-by-sa
+
+- url: 'http://creativecommons.org/licenses/by-sa/2.0/uk/'
+  license: cc-by-sa/2.0/uk
+  license_family: cc-by-sa
+
+## cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.0/de/'
+  license: cc-by-nc-nd/2.0/de
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.0/fr/'
+  license: cc-by-nc-nd/2.0/fr
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.0/uk/'
+  license: cc-by-nc-nd/2.0/uk
+  license_family: cc-by-nc-nd
+
+## cc-by-nd
+
+- url: 'http://creativecommons.org/licenses/by-nd/2.0/uk/'
+  license: cc-by-nd/2.0/uk
+  license_family: cc-by-nd

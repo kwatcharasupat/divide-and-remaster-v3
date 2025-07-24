@@ -1,0 +1,20 @@
+defaults:
+  - data/dnr-v3-com-48k
+  - loudness/dnr-v3
+  - events/dnr-v3
+  - splits/dnr-v2-test
+  - audio/48k-24bit-mono
+  - _self_
+
+
+composite:
+  sfx:
+    - sfx_fg
+    - sfx_bg
+
+seed: 42
+output_dir: ${oc.env:DNR_DATA_ROOT}/dnr-v3-com-48k-new
+data_root: ${oc.env:CLEANED_DATA_ROOT}
+
+hydra:
+  output_subdir: null

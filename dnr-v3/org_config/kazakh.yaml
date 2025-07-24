@@ -1,0 +1,18 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-kazakh-slr140
+  subset: full/48k
+
+data:
+  sources:
+    - glob: slr140-kazakh/audio*/**/*.wav
+
+path:
+  manifest: slr140-kazakh/manifest.csv
+
+seed: 42

@@ -1,0 +1,43 @@
+defaults:
+  - peak/true_peak
+
+speech:
+  submix:
+    distr: precomputed
+    file: ${oc.env:CLEANED_DATA_ROOT}/dnr-v3-com-48k-intermediates/{split}/precompute.csv
+    column: speech_lufs
+  clip:
+    distr: normal
+    scale: 6
+
+music:
+  submix:
+    distr: normal
+    loc: -32
+    scale: 6.0
+  clip:
+    distr: normal
+    scale: 10.0
+
+sfx_fg:
+  submix:
+    distr: normal
+    loc: -32
+    scale: 6.0
+  clip:
+    distr: normal
+    scale: 10.0
+
+sfx_bg:
+  submix:
+    distr: normal
+    loc: -40
+    scale: 6.0
+  clip:
+    distr: normal
+    scale: 10.0
+
+master:
+  distr: precomputed
+  file: ${oc.env:CLEANED_DATA_ROOT}/dnr-v3-com-48k-intermediates/{split}/precompute.csv
+  column: master_lufs

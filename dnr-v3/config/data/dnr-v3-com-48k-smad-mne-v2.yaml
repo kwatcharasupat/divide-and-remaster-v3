@@ -1,0 +1,14 @@
+music:
+  - subset: default
+    src: 
+       - music-fma/full-smad/com/music-only/48k-lr
+
+sfx_fg:
+  - subset: default
+    src: 
+      - effects-fsd50k/full-v3-smad/com/effects-no-vox/48k
+
+sfx_bg:
+  - subset: default
+    src: 
+      - effects-fsd50k/full-v3-smad/com/effects-no-vox/48k

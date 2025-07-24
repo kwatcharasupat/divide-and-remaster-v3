@@ -1,0 +1,16 @@
+defaults:
+  - data/dnr-v3-com-48k-smad-mne-v2
+  - loudness/dnr-v3
+  - events/dnr-v3
+  - splits/dnr-100h-train-val-test
+  - audio/48k-24bit-mono
+  - _self_
+
+seed: 42
+output_dir: ${oc.env:CLEANED_DATA_ROOT}/dnr-v3-com-48k-mne-intermediates-v2
+data_root: ${oc.env:CLEANED_DATA_ROOT}
+
+intermediates_mode: true
+
+hydra:
+  output_subdir: null

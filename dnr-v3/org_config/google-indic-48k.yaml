@@ -1,0 +1,94 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-indic-slr-google
+  subset: full/48k
+
+data:
+  sources:
+    - glob: slr37-bengali/wavs/ban*.wav
+      language: ben
+      variant: ben-bangladesh
+      family: indo-aryan
+      gender: male
+
+    - glob: slr37-bengali/wavs/bin*.wav
+      language: ben
+      variant: ben-india
+      family: indo-aryan
+      gender: male
+
+
+    - glob: slr43-nepali/ne_np_female/wavs/nep*.wav
+      language: npi
+      family: indo-aryan
+      gender: female
+
+
+    - glob: slr64-marathi/mrt*.wav
+      language: mar
+      family: indo-aryan
+      gender: female
+
+
+    - glob: slr78-gujarati/guf*.wav
+      language: guj
+      family: indo-aryan
+      gender: female
+
+    - glob: slr78-gujarati/gum*.wav
+      language: guj
+      family: indo-aryan
+      gender: male
+
+
+    - glob: slr79-kannada/knf*.wav
+      language: kan
+      family: dravidian
+      gender: female
+
+    - glob: slr79-kannada/knm*.wav
+      language: kan
+      family: dravidian
+      gender: male
+
+
+    - glob: slr63-malayalam/mlm*.wav
+      language: mal
+      family: dravidian
+      gender: male
+
+    - glob: slr63-malayalam/mlf*.wav
+      language: mal
+      family: dravidian
+      gender: female
+
+
+    - glob: slr65-tamil/taf*.wav
+      language: tam
+      family: dravidian
+      gender: female
+
+    - glob: slr65-tamil/tag*.wav
+      language: tam
+      family: dravidian
+      gender: male
+
+
+    - glob: slr66-telugu/tef*.wav
+      language: tel
+      family: dravidian
+      gender: female
+
+    - glob: slr66-telugu/tem*.wav
+      language: tel
+      family: dravidian
+      gender: male
+path:
+  manifest: indic-google/manifest.csv
+
+seed: 42

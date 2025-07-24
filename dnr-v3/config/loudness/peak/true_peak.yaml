@@ -1,0 +1,4 @@
+threshold: -2.0
+correction_mode: limiter
+detector: true-peak
+oversampling_factor: 4

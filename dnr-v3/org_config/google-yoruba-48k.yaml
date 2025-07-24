@@ -1,0 +1,24 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-yoruba-slr86-google
+  subset: full/48k
+
+data:
+  sources:
+    - glob: /slr86-yoruba/yof*.wav
+      language: yor
+      gender: female
+
+    - glob: slr86-yoruba/yom*.wav
+      language: yor
+      gender: male
+
+path:
+  manifest: slr86-yoruba/manifest.csv
+
+seed: 42

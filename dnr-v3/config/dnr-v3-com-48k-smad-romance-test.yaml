@@ -1,0 +1,20 @@
+defaults:
+  - data/dnr-v3-com-48k-smad-romance
+  - loudness/dnr-v3-precomputed
+  - events/dnr-v3-precomputed
+  - splits/dnr-20h-test
+  - audio/48k-24bit-mono
+  - lang/default
+  - _self_
+
+composite:
+  sfx:
+    - sfx_fg
+    - sfx_bg
+
+seed: 42
+output_dir: ${oc.env:DNR_DATA_ROOT}/dnr-v3-com-48k-smad-multi-v2
+data_root: ${oc.env:CLEANED_DATA_ROOT}
+
+hydra:
+  output_subdir: null

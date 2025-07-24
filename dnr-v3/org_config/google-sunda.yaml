@@ -1,0 +1,24 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-sundanese-slr44-google
+  subset: full/48k
+
+data:
+  sources:
+    - glob: slr44-sundanese/su_id_female/wavs/suf*.wav
+      language: sun
+      gender: female
+
+    - glob: slr44-sundanese/su_id_male/wavs/sum*.wav
+      language: sun
+      gender: male
+
+path:
+  manifest: slr44-sundanese/manifest.csv
+
+seed: 42

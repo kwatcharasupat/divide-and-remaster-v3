@@ -1,0 +1,4 @@
+sampling_rate: 48000
+bit_depth: 24
+channels: 1
+downmix_mode: split_all

@@ -1,0 +1,19 @@
+speech:
+  - subset: default
+    src: 
+      - speech-english-slr12-librispeech-hq/clean-100h/48k
+
+music:
+  - subset: default
+    src: 
+       - music-fma/large/com/unk/48k
+
+sfx_fg:
+  - subset: default
+    src: 
+      - effects-fsd50k/full-v2/com/foreground/48k
+
+sfx_bg:
+  - subset: default
+    src: 
+      - effects-fsd50k/full-v2/com/background/48k

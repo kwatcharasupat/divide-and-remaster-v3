@@ -1,0 +1,36 @@
+
+# other licenses
+
+- url: 'http://www.upitup.com/tracky/newalbum/CopyrightPlus.html'
+  license: copyright-plus
+  license_family: copyright-plus
+
+- url: 'http://pan.zipcon.net/EFF/oal.html'
+  license: open-audio-license/1.0.1
+  license_family: open-audio-license
+
+- url: 'http://www.ideology.de/archives/000019.php'
+  license: ideology
+  license_family: ideology
+
+- url: 'http://artlibre.org/licence/lal/en'
+  license: free-art-license/1.3
+  license_family: free-art-license
+
+- url: 'http://freemusicarchive.org/music-sharing'
+  license: fma-music-sharing
+  license_family: fma-music-sharing
+
+- url: 'http://www.irdial.com/free_and_easy.htm'
+  license: free-and-easy
+  license_family: free-and-easy
+
+# missing license
+
+- url: missing
+  license: missing
+  license_family: missing
+
+- url: 'http://en.wikipedia.org/wiki/Orphan_work'
+  license: orphan-work
+  license_family: orphan-work

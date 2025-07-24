@@ -1,0 +1,29 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-vietnamese-fosd
+  subset: full/48k
+
+  
+splits:
+  train:
+    metadata: fosd/splits/metadata_train.csv
+    prop: 0.875
+  val:
+    metadata: fosd/splits/metadata_train.csv
+    prop: 0.125
+  test:
+    metadata: fosd/splits/metadata_val.csv
+    prop: 1.0
+
+path:
+  manifest: fosd/manifest.csv
+  audio_root: fosd/mp3
+
+seed: 43
+
+remake_splits: true

@@ -1,0 +1,27 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-english-slr71-google-chilean
+  subset: full/48k
+
+data:
+  sources:
+    - glob: slr71-chilean-english/clf*.wav
+      language: eng
+      variant: chilean
+      gender: female
+
+    - glob: slr71-chilean-english/clm*.wav
+      language: eng
+      variant: chilean
+      gender: male
+
+
+path:
+  manifest: slr71-chilean-english/manifest.csv
+
+seed: 42

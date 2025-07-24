@@ -1,0 +1,41 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-japanese-jvnv-pjs
+  subset: full/48k
+
+data:
+  sources:
+    - glob: jvnv/jvnv_v1/F1/**/*.wav
+      gender: female
+      speaker_id: JVNV-F1
+      split: train
+
+    - glob: jvnv/jvnv_v1/M1/**/*.wav
+      gender: male
+      speaker_id: JVNV-M1
+      split: train
+
+    - glob: pjs/PJS_corpus_ver1.1/**/*_speech.wav
+      gender: male
+      speaker_id: PJS-M1
+      split: val
+
+    - glob: jvnv/jvnv_v1/F2/**/*.wav
+      gender: female
+      speaker_id: JVNV-F2
+      split: test
+
+    - glob: jvnv/jvnv_v1/M2/**/*.wav
+      gender: male
+      speaker_id: JVNV-M2
+      split: test
+
+path:
+  manifest: japanese-pjs-jvnv/manifest.csv
+
+seed: 42

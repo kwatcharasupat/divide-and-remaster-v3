@@ -1,0 +1,2 @@
+raw_data_root: ${oc.env:RAW_DATA_ROOT}
+cleaned_data_root: ${oc.env:CLEANED_DATA_ROOT}

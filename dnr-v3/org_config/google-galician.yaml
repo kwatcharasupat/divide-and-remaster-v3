@@ -1,0 +1,24 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-galician-slr77-google
+  subset: full/48k
+
+data:
+  sources:
+    - glob: slr77-galician/glf*.wav
+      language: glg
+      gender: female
+
+    - glob: slr77-galician/gam*.wav
+      language: glg
+      gender: male
+
+path:
+  manifest: slr77-galician/manifest.csv
+
+seed: 42

@@ -1,0 +1,18 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-portuguese-edresson
+  subset: full/48k
+
+data:
+  sources:
+    - glob: edresson-pt-br/TTS-Portuguese-Corpus/wavs/*.wav
+
+path:
+  manifest: edresson-pt-br/manifest.csv
+
+seed: 42

@@ -1,0 +1,26 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-javanese-slr41-google
+  subset: full/48k
+
+data:
+  sources:
+    - glob: slr41-javanese/jv_id_female/wavs/jvf*.wav
+      language: jav
+      gender: female
+
+    - glob: slr41-javanese/jv_id_male/wavs/jvm*.wav
+      language: jav
+      gender: male
+
+
+
+path:
+  manifest: slr41-javanese/manifest.csv
+
+seed: 42

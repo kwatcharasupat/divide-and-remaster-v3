@@ -1,0 +1,12 @@
+train:
+  num_files: 6000
+
+val:
+  num_files: 600
+
+# test:
+#   num_files: null
+#   exhaust: 
+#     speech:
+#       default: 
+#         loop: 2

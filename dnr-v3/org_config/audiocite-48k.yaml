@@ -1,0 +1,38 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-french-slr139-audiocite
+  subset: full/{license}/48k
+  split_by_license: true
+
+  
+splits:
+  test:
+    manifest: slr139-audiocite/metadata/test_files.json
+  val:
+    manifest: slr139-audiocite/metadata/dev_files.json
+  train:
+    manifest: slr139-audiocite/metadata/train_files.json
+
+path:
+  license_manifest: slr139-audiocite/metadata/downloaded.csv
+  audio_path: slr139-audiocite/wavs
+  tmp_audio_path: slr139-audiocite/wavs_tmp48k
+  smad_path: slr139-audiocite/smad
+
+
+segmentation:
+  min_segment_duration_seconds: 1.0
+  max_segment_duration_seconds: 20.0
+
+
+audiocite:
+  check_missing_temp_wavs: false
+  run_smad: false
+  run_formatted_temp_wavs: false
+  license_filter:
+    - com

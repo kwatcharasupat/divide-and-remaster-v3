@@ -1,0 +1,65 @@
+[tool.ruff.lint]
+select = [
+    "A",   # flake8-builtins
+    "ANN", # flake8-annotations
+    #"ARG", # flake8-unused-arguments
+    "B",   # flake8-bugbear
+    "BLE", # flake8-blind-except
+    "C4",  # flake8-comprehensions
+    #"D",   # pydocstyle
+    "DTZ", # flake8-datetimez
+    "E",   # pycodestyle
+    "EM",  # flake8-errmsg
+    #"ERA", # eradicate
+    "EXE", # flake8-executable
+    "F",   # pyflakes
+    #"FA",  # flake8-future-annotations
+    #"FBT", # flake8-boolean-trap
+    # "FIX", # flake8-fixme
+    "FLY", # flynt
+    "G",   # flake8-logging-format
+    "I",   # isort
+    #"INP", # flake8-no-pep420
+    "ISC", # flake8-implicit-str-concat
+    "N",   # pep8-naming
+    "PD",  # pandas-vet
+    "PIE", # flake8-pie
+    #"PGH", # pygrep-hooks
+    "PL",  # Pylint
+    "PT",  # flake8-pytest-style
+    #"PTH", # flake8-use-pathlib
+    #"PYI", # flake8-pyi
+    #"Q",   # flake8-quotes
+    # "RET", # flake8-return
+    "RSE", # flake8-raise
+    "RUF", # ruff-specific
+    "S",   # bandit
+    #"SIM", # flake8-simplify
+    "SLF", # flake8-self
+    "T10", # flake8-debugger
+    # "T20", # flake8-print
+    # "TCH", # flake8-type-checking
+    # "TD",  # flake8-todos
+    #"TID", # flake8-tidy-imports
+    "TRY", # tryceratops
+    #"UP",  # pyupgrade
+    "W",   # pycodestyle
+]
+
+
+extend-ignore = [
+    "S101",     # use of assert
+    "ISC001",   # Single line implicit string concatenation (to avoid confusing the formatter)
+    "PLR0913",  # Too many arguments
+]
+
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = ["fastapi.Depends"]    # Only useful if you're using FastAPI
+
+[tool.ruff.lint.flake8-builtins]
+builtins-ignorelist = ["id", "license"]
+
+[tool.ruff.per-file-ignores]
+"tests/*" = [
+    "PLR2004",  # Magic value used instead of constant (only in tests)
+]

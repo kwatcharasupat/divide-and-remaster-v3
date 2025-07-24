@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+tqdm
+hydra-core
+omegaconf
+ruff
+zenodo-get
+fire

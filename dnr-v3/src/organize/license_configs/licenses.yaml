@@ -1,0 +1,108 @@
+cc-by:
+  attribution: true
+  derivative: true
+  commercial: true
+  share_alike: false
+
+cc-by-sa:
+  attribution: true
+  derivative: true
+  commercial: true
+  share_alike: true
+
+cc-by-nc:
+  attribution: true
+  derivative: true
+  commercial: false
+  share_alike: false
+
+cc-by-nc-sa:
+  attribution: true
+  derivative: true
+  commercial: false
+  share_alike: true
+
+cc-by-nd:
+  attribution: true
+  derivative: false
+  commercial: true
+  share_alike: null
+
+cc-by-nc-nd:
+  attribution: true
+  derivative: false
+  commercial: false
+  share_alike: null
+
+public-domain:
+  attribution: false
+  derivative: true
+  commercial: true
+  share_alike: false
+
+
+cc-sampling+:
+  attribution: true
+  derivative: true
+  commercial: false # ambiguous but leaning on the side of non-commercial
+  share_alike: false
+
+cc-nc-sampling+:
+  attribution: true
+  derivative: true
+  commercial: false
+  share_alike: false
+
+copyright-plus:
+  attribution: true
+  derivative: false
+  commercial: false
+  share_alike: null
+
+sound-recording-common-law:
+  attribution: true
+  derivative: true
+  commercial: false # ambiguous but leaning on the side of non-commercial
+  share_alike: null
+
+ideology:
+  attribution: true
+  derivative: false
+  commercial: false
+  share_alike: null
+
+open-audio-license:
+  attribution: true
+  derivative: true
+  commercial: true
+  share_alike: true
+
+free-art-license:
+  attribution: true
+  derivative: true
+  commercial: true
+  share_alike: true
+
+fma-music-sharing:
+  attribution: true
+  derivative: false
+  commercial: false
+  share_alike: null
+
+free-and-easy:
+  attribution: false
+  derivative: true
+  commercial: false
+  share_alike: null
+
+orphan-work:
+  attribution: null
+  derivative: false
+  commercial: false
+  share_alike: null
+
+missing:
+  attribution: null
+  derivative: false
+  commercial: false
+  share_alike: null

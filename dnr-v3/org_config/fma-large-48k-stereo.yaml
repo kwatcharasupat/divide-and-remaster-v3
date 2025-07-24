@@ -1,0 +1,38 @@
+defaults:
+  - audio/48k-24bit-stereo
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: music-fma
+  subset: large/{license}/{inst}/48k-stereo
+  split_by_license: true
+  split_by_function: true
+
+  
+splits:
+  train:
+    - path: fma/fma_large
+      metadata: fma/fma_metadata/tracks.csv
+      raw_metadata: fma/fma_metadata/raw_tracks.csv
+      echonest_metadata: fma/fma_metadata/echonest.csv
+  val:
+    - path: fma/fma_large
+      metadata: fma/fma_metadata/tracks.csv
+      raw_metadata: fma/fma_metadata/raw_tracks.csv
+      echonest_metadata: fma/fma_metadata/echonest.csv
+  test:
+    - path: fma/fma_large
+      metadata: fma/fma_metadata/tracks.csv
+      raw_metadata: fma/fma_metadata/raw_tracks.csv
+      echonest_metadata: fma/fma_metadata/echonest.csv
+
+fma:
+  subset: large
+  instrumentalness_threshold: 0.8
+
+split_name_map:
+  train: training
+  val: validation
+  test: test

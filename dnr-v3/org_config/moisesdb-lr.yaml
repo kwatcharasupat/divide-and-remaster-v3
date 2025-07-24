@@ -1,0 +1,90 @@
+defaults:
+  - audio/48k-24bit-mono-lr
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: music-moisesdb
+  subset: full-lr/{stem_combination}
+  
+splits:
+  train:
+    folds: [1, 2, 3]
+  val:
+    folds: [4]
+  test:
+    folds: [5]
+
+
+path:
+  data_root: moisesdb/moisesdb/moisesdb_v0.1
+  manifest: moisesdb/manifest.csv
+  splits: moisesdb/splits.csv
+
+stems:
+  - vocals
+  - drums
+  - bass
+  - guitar
+  - other plucked
+  - percussion
+  - piano
+  - other keys
+  - bowed strings
+  - wind
+
+stem_combinations:
+  mixture:
+    - vocals
+    - drums
+    - bass
+    - guitar
+    - other plucked
+    - percussion
+    - piano
+    - other keys
+    - bowed strings
+    - wind
+  instrumental:
+    - drums
+    - bass
+    - guitar
+    - other plucked
+    - percussion
+    - piano
+    - other keys
+    - bowed strings
+    - wind
+
+# https://github.com/sigsep/website/issues/48 by Philipp Grundhuber
+blocklist:
+  # instruments bleed into vocals
+  - The So So Glos - Emergency
+  - The Scarlet Brand - Les Fleurs Du Mal
+  - Strand Of Oaks - Spacestation
+  - Jokers, Jacks & Kings - Sea Of Leaves
+  - Invisible Familiars - Disturbing Wildlife
+  - Drumtracks - Ghost Bitch
+  - Black Bloc - If You Want Success
+  - Al James - Schoolboy Facination
+  - Angels In Amplifiers - I'm Alright
+  - Buitraker - Revo X
+  - Cristina Vane - So Easy
+  - Lyndsey Ollard - Catching Up
+  - Nerve 9 - Pray For The Rain
+  - Punkdisco - Oral Hygiene
+  - The Doppler Shift - Atrophy
+  - The Easton Ellises - Falcon 69
+  - The Easton Ellises (Baumi) - SDRNR
+  - The Long Wait - Dark Horses
+  - Timboz - Pony
+  - Tom McKenzie - Directions
+  - We Fell From The Sky - Not You
+  - Zeno - Signs
+  - Chris Durban - Celebrate
+  - Hop Along - Sister Cities
+  # speaking
+  - Dark Ride - Burning Bridges
+  - ANiMAL - Clinic A
+  - Enda Reilly - Cur An Long Ag Seol

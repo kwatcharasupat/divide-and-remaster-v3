@@ -1,0 +1,18 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-arabic-asc
+  subset: full/48k
+
+data:
+  sources:
+    - glob: arabic-speech-corpus/arabic-speech-corpus/wav/*.wav
+
+path:
+  manifest: arabic-speech-corpus/manifest.csv
+
+seed: 42

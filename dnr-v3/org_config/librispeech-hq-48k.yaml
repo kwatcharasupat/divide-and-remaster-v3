@@ -1,0 +1,24 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: english-slr12-librispeech-hq
+  subset: clean-100h/48k
+
+  
+splits:
+  train:
+    - glob: slr12-librispeech/LibriSpeech/train-clean-100/*/*
+      recursive: false
+  val:
+    - glob: slr12-librispeech/LibriSpeech/dev-clean/*/*
+      recursive: false
+  test:
+    - glob: slr12-librispeech/LibriSpeech/test-clean/*/*
+      recursive: false
+
+data:
+  mp3_root: slr12-librispeech/LibriSpeech/mp3

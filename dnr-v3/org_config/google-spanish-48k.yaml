@@ -1,0 +1,59 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-spanish-slr-google
+  subset: full/48k
+
+data:
+  sources:
+    - glob: "slr61-chilean-spanish/clf*.wav"
+      gender: female
+      variant: es-cl
+    - glob: "slr61-chilean-spanish/clm*.wav"
+      gender: male
+      variant: es-cl
+    - glob: "slr61-argentinian-spanish/es-ar/arf*.wav"
+      gender: female
+      variant: es-ar
+    - glob: "slr61-argentinian-spanish/es-es/esw*.wav"
+      gender: mixed
+      variant: es-es
+    - glob: "slr61-argentinian-spanish/arf*.wav"
+      gender: female
+      variant: es-ar
+    - glob: "slr61-argentinian-spanish/arm*.wav"
+      gender: male
+      variant: es-ar
+    - glob: "slr72-colombian-spanish/cof*.wav"
+      gender: female
+      variant: es-co
+    - glob: "slr72-colombian-spanish/com*.wav"
+      gender: male
+      variant: es-co
+    - glob: "slr73-peruvian-spanish/pef*.wav"
+      gender: female
+      variant: es-pe
+    - glob: "slr73-peruvian-spanish/pem*.wav"
+      gender: male
+      variant: es-pe
+    - glob: "slr74-puerto-rican-spanish/prf*.wav"
+      gender: female
+      variant: es-pr
+    # - glob: "slr74-puerto-rican-spanish/prm*.wav"
+    #   gender: male
+    #   variant: es-pr
+    - glob: "slr75-venezuelan-spanish/vef*.wav"
+      gender: female
+      variant: es-ve
+    - glob: "slr75-venezuelan-spanish/vem*.wav"
+      gender: male
+      variant: es-ve
+
+path:
+  manifest: spanish-google/manifest.csv
+
+seed: 42

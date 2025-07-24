@@ -1,0 +1,17 @@
+# public domain
+
+- url: 'http://creativecommons.org/publicdomain/zero/1.0/'
+  license: cc0/1.0
+  license_family: public-domain
+
+- url: 'http://creativecommons.org/publicdomain/mark/1.0/'
+  license: cc-mark/1.0
+  license_family: public-domain
+
+- url: 'http://creativecommons.org/licenses/publicdomain/'
+  license: public-domain
+  license_family: public-domain
+
+- url: 'http://freemusicarchive.org/Sound_Recording_Common_Law'
+  license: sound-recording-common-law
+  license_family: sound-recording-common-law

@@ -1,0 +1,29 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-chinese-slr93-aishell3
+  subset: full/48k
+
+  
+splits:
+  train:
+    glob: aishell3/train/**/*.wav
+    prop: 0.875
+  val:
+    glob: aishell3/train/**/*.wav
+    prop: 0.125
+  test:
+    glob: aishell3/test/**/*.wav
+    prop: 1.0
+
+path:
+  manifest: aishell3/manifest.csv
+  speaker_info: aishell3/spk-info.txt
+
+seed: 43
+
+remake_splits: true

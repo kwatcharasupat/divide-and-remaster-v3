@@ -1,0 +1,21 @@
+defaults:
+  - data/dnr-v3-com-48k-smad-multi-v2-singing2
+  - loudness/dnr-v3-precomputed-singing
+  - events/dnr-v3-precomputed-dense-singing
+  - splits/dnr-100h-train-val-test
+  - audio/48k-24bit-mono
+  - _self_
+
+composite:
+  sfx:
+    - sfx_fg
+    - sfx_bg
+
+output_mixture: false
+
+seed: 42
+output_dir: ${oc.env:DNR_DATA_ROOT}/dnr-v3-com-48k-smad-multi-v2-singing2
+data_root: ${oc.env:CLEANED_DATA_ROOT}
+
+hydra:
+  output_subdir: null

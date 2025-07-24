@@ -1,0 +1,26 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-bnt-slr32-google
+  subset: full/48k
+
+data:
+  sources:
+
+    - glob: slr32-south-african/st_za/za/sso/wavs/sso*.wav
+      language: sot
+
+    - glob: slr32-south-african/tn_za/za/tsn/wavs/tsn*.wav
+      language: tsn
+
+    - glob: slr32-south-african/xh_za/za/xho/wavs/xho*.wav
+      language: xho
+
+path:
+  manifest: slr32-bantu/manifest.csv
+
+seed: 42

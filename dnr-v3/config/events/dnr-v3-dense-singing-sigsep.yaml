@@ -1,0 +1,89 @@
+speech:
+  num_segments:
+    distr: zero-truncated-poisson
+    loc: 16.0
+  start_seconds:
+    distr: skew-normal
+    loc_offset: 0.0
+    scale: 2.0
+    skew: 5.0
+  length_seconds:
+    distr: truncated-normal
+    loc_multiplier: 0.5
+    scale_multiplier: 0.1
+    lower_bound: 0.1
+  min_duration_prop: 1.0
+  allow_overlap_prop: 0.25
+  min_time_before_end_seconds: null
+  min_time_before_end_prop: 1.0
+  random_segment_start: false
+  full_segment_only: true
+
+
+music:
+  num_segments:
+    distr: zero-truncated-poisson
+    loc: 7.0
+  start_seconds:
+    distr: skew-normal
+    loc_offset: 0.0
+    scale: 2.0
+    skew: 5.0
+  length_seconds:
+    distr: truncated-normal
+    loc: 15.0
+    scale: 3.0
+    lower_bound: 1.0
+    upper_bound: 30.0
+  n_components:
+    distr: truncated-poisson
+    loc_multiplier: 0.75
+    
+  min_duration_prop: 0.3
+  allow_overlap_prop: 0.0
+  min_time_before_end_seconds: 2.0
+  min_time_before_end_prop: null
+  random_segment_start: true
+
+sfx_fg:
+  num_segments:
+    distr: zero-truncated-poisson
+    loc: 12.0
+  start_seconds:
+    distr: skew-normal
+    loc_offset: 0.0
+    scale: 2.0
+    skew: 5.0
+  length_seconds:
+    distr: truncated-normal
+    loc_multiplier: 0.5
+    scale_multiplier: 0.1
+    lower_bound: 0.1
+  min_duration_prop: 0.3
+  min_duration_seconds: 0.5
+  allow_overlap_prop: 0.5
+  min_time_before_end_seconds: 2.0
+  min_time_before_end_prop: null
+  random_segment_start: false
+
+sfx_bg:
+  num_segments:
+    distr: zero-truncated-poisson
+    loc: 24.0
+  start_seconds:
+    distr: skew-normal
+    loc_offset: 0.0
+    scale: 2.0
+    skew: 5.0
+  length_seconds:
+    distr: truncated-normal
+    loc_multiplier: 0.5
+    scale_multiplier: 0.1
+    lower_bound: 0.1
+    upper_bound: 30.0
+  min_duration_prop: 0.3
+  min_duration_seconds: 1.0
+  allow_overlap_prop: 1.0
+  min_time_before_end_seconds: 2.0
+  min_time_before_end_prop: null
+  random_segment_start: false

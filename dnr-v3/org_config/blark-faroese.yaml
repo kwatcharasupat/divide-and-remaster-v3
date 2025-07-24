@@ -1,0 +1,24 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-faroese-slr125-blark
+  subset: full/48k
+
+data:
+  sources:
+    - glob: slr125-faroese/BLARK_1.0/sound_1.0/Rdata*/*.flac
+
+path:
+  manifest: slr125-faroese/manifest.csv
+
+seed: 42
+
+
+
+segmentation:
+  min_segment_duration_seconds: 1.0
+  max_segment_duration_seconds: 20.0

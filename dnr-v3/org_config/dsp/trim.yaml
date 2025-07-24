@@ -1,0 +1,4 @@
+trim:
+  frame_duration_ms: 40
+  hop_duration_ms: 10
+  db_threshold_rel_peak: 20

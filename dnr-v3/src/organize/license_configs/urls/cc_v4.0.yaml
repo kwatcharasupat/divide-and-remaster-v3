@@ -1,0 +1,41 @@
+# cc 4.0 licenses international
+
+## cc-by
+
+- url: 'http://creativecommons.org/licenses/by/4.0/'
+  license: cc-by/4.0
+  license_family: cc-by
+
+## cc-by-sa
+
+- url: 'http://creativecommons.org/licenses/by-sa/4.0/'
+  license: cc-by-sa/4.0
+  license_family: cc-by-sa
+
+## cc-by-nc
+
+- url: 'http://creativecommons.org/licenses/by-nc/4.0/'
+  license: cc-by-nc/4.0
+  license_family: cc-by-nc
+
+## cc-by-nc-sa
+
+- url: 'http://creativecommons.org/licenses/by-nc-sa/4.0/'
+  license: cc-by-nc-sa/4.0
+  license_family: cc-by-nc-sa
+
+## cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/4.0/'
+  license: cc-by-nc-nd/4.0
+  license_family: cc-by-nc-nd
+
+## cc-by-nd
+
+- url: 'http://creativecommons.org/licenses/by-nd/4.0/'
+  license: cc-by-nd/4.0
+  license_family: cc-by-nd
+
+- url: 'https://creativecommons.org/licenses/by-nd/4.0/'
+  license: cc-by-nd/4.0
+  license_family: cc-by-nd

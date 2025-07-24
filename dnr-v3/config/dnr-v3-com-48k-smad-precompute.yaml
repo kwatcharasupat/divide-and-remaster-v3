@@ -1,0 +1,15 @@
+defaults:
+  - loudness/dnr-v3
+  - events/dnr-v3-dense
+  - splits/dnr-100h-train-val-test
+  - _self_
+
+seed: 42
+output_dir: ${oc.env:CLEANED_DATA_ROOT}/dnr-v3-com-48k-intermediates
+data_root: ${oc.env:CLEANED_DATA_ROOT}
+
+# intermediates_mode: true
+precompute_mode: true
+
+hydra:
+  output_subdir: null

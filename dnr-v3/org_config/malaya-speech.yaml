@@ -1,0 +1,36 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-malay-malaya-speech
+  subset: full/48k
+
+data:
+  sources:
+    - glob: malaya-speech/audio/*.wav
+      language: zlm
+      gender: male
+      set: news
+
+    - glob: malaya-speech/audio-iium/*.wav
+      language: zlm
+      gender: male
+      set: iium-clear
+
+    - glob: malaya-speech/audio-wattpad/*.wav
+      language: zlm
+      gender: male
+      set: wattpad
+
+    - glob: malaya-speech/streaming/*.wav
+      language: zlm
+      gender: male
+      set: iium
+
+path:
+  manifest: malaya-speech/manifest.csv
+
+seed: 42

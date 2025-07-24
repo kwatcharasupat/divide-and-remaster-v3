@@ -1,0 +1,28 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-english-slr70-google-nigerian
+  subset: full/48k
+
+data:
+  sources:
+    - glob: slr70-nigerian-english/ngf*.wav
+      language: eng
+      variant: nigerian
+      gender: female
+
+    - glob: slr70-nigerian-english/ngm*.wav
+      language: eng
+      variant: nigerian
+      gender: male
+
+
+
+path:
+  manifest: slr70-nigerian-english/manifest.csv
+
+seed: 42

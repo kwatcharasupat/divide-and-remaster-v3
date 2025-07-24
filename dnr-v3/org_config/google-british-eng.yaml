@@ -1,0 +1,76 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-english-slr83-google-british-isles
+  subset: full/48k
+
+data:
+  sources:
+
+    - glob: slr83-british-isles-english/irm*.wav
+      language: eng
+      variant: irish
+      gender: male
+
+    - glob: slr83-british-isles-english/mif*.wav
+      language: eng
+      variant: midlands
+      gender: female
+
+    - glob: slr83-british-isles-english/mim*.wav
+      language: eng
+      variant: midlands
+      gender: male
+
+    - glob: slr83-british-isles-english/nof*.wav
+      language: eng
+      variant: northern
+      gender: female
+
+    - glob: slr83-british-isles-english/nom*.wav
+      language: eng
+      variant: northern
+      gender: male
+
+
+    - glob: slr83-british-isles-english/sof*.wav
+      language: eng
+      variant: southern
+      gender: female
+
+    - glob: slr83-british-isles-english/som*.wav
+      language: eng
+      variant: southern
+      gender: male
+
+    
+    - glob: slr83-british-isles-english/scf*.wav
+      language: eng
+      variant: scottish
+      gender: female
+
+    - glob: slr83-british-isles-english/scm*.wav
+      language: eng
+      variant: scottish
+      gender: male
+
+    
+    - glob: slr83-british-isles-english/wef*.wav
+      language: eng
+      variant: welsh
+      gender: female
+
+    - glob: slr83-british-isles-english/wem*.wav
+      language: eng
+      variant: welsh
+      gender: male
+
+
+path:
+  manifest: slr83-british-isles-english/manifest.csv
+
+seed: 42

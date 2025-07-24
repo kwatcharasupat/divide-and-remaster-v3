@@ -1,0 +1,43 @@
+defaults:
+  - peak/naive
+
+speech:
+  submix:
+    distr: uniform
+    loc: -17
+    scale: 2
+  clip:
+    distr: uniform
+    scale: 1
+
+music:
+  submix:
+    distr: uniform
+    loc: -24
+    scale: 2
+  clip:
+    distr: uniform
+    scale: 1
+
+sfx_fg:
+  submix:
+    distr: uniform
+    loc: -21
+    scale: 2
+  clip:
+    distr: uniform
+    scale: 1
+
+sfx_bg:
+  submix:
+    distr: uniform
+    loc: -29
+    scale: 2
+  clip:
+    distr: uniform
+    scale: 1
+
+master:
+  distr: normal
+  loc: -27
+  scale: 2

@@ -1,0 +1,19 @@
+defaults:
+  - data/dnr-v2-com-48k
+  - loudness/dnr-v2
+  - events/dnr-v2
+  - splits/dnr-100h-train-val
+  - _self_
+
+
+composite:
+  sfx:
+    - sfx_fg
+    - sfx_bg
+
+seed: 42
+output_dir: ${oc.env:DNR_DATA_ROOT}/dnr-v2-commercial-48k
+data_root: ${oc.env:CLEANED_DATA_ROOT}
+
+hydra:
+  output_subdir: null

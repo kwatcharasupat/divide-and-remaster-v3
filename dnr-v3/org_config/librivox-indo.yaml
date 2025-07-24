@@ -1,0 +1,20 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-indonesian-librivox
+  subset: full/48k
+
+data:
+  sources:
+    - glob: librivox-indonesia/data/librivox-indonesia/**/acehnese/universal-declaration-of-human-rights/*.mp3
+      language: ace
+      gender: male
+
+path:
+  manifest: slr42-khmer/manifest.csv
+
+seed: 42

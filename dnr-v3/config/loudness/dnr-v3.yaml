@@ -1,0 +1,43 @@
+defaults:
+  - peak/true_peak
+
+speech:
+  submix:
+    distr: normal
+    loc: -27
+    scale: 4.0
+  clip:
+    distr: normal
+    scale: 6
+
+music:
+  submix:
+    distr: normal
+    loc: -32
+    scale: 6.0
+  clip:
+    distr: normal
+    scale: 10.0
+
+sfx_fg:
+  submix:
+    distr: normal
+    loc: -32
+    scale: 6.0
+  clip:
+    distr: normal
+    scale: 10.0
+
+sfx_bg:
+  submix:
+    distr: normal
+    loc: -40
+    scale: 6.0
+  clip:
+    distr: normal
+    scale: 10.0
+
+master:
+  distr: normal
+  loc: -27
+  scale: 1

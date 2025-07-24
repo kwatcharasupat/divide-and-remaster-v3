@@ -1,0 +1,36 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-italian-lamit
+  subset: full/48k
+
+data:
+  sources:
+    - glob: "lamit/The LaMIT database a read speech corpus for acoustic studies of the Italian language toward lexical access based on the detection of landmarks and other acoustic cues to features/LaMIT_database/SPEAKER_JV/Audio/*.wav"
+      gender: male
+      speaker_id: JV
+      split: train
+
+    - glob: "lamit/The LaMIT database a read speech corpus for acoustic studies of the Italian language toward lexical access based on the detection of landmarks and other acoustic cues to features/LaMIT_database/SPEAKER_LDN/Audio/*.wav"
+      gender: male
+      speaker_id: JVNV-M1
+      split: test
+
+    - glob: "lamit/The LaMIT database a read speech corpus for acoustic studies of the Italian language toward lexical access based on the detection of landmarks and other acoustic cues to features/LaMIT_database/SPEAKER_MGDB/Audio/*.wav"
+      gender: female
+      speaker_id: MGDB
+      split: train
+
+    - glob: "lamit/The LaMIT database a read speech corpus for acoustic studies of the Italian language toward lexical access based on the detection of landmarks and other acoustic cues to features/LaMIT_database/SPEAKER_SB/Audio/*.wav"
+      gender: female
+      speaker_id: SB
+      split: test
+
+path:
+  manifest: lamit/manifest.csv
+
+seed: 42

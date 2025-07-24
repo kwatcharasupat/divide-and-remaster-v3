@@ -1,0 +1,42 @@
+
+mya:
+  members:
+    - mya
+  users: 43165690
+
+khm:
+  members:
+    - khm
+  users: 17600950
+
+zlm:
+  members:
+    - zlm
+  users: 19179470
+
+jav:
+  members:
+    - jav
+  users: 68335000
+
+sun:
+  members:
+    - sun
+  users: 32400000
+
+
+# malayo-chamic:
+#   members:
+#     - zlm # 19179470
+#     - ind # 199002320
+#     - ace # 2840000
+#     - min # 4880000
+#   users: 225901790
+
+# other-malayo-polynesian:
+#   members:
+#     - jav # 68335000
+#     - sun # 32400000
+#     - ban # 3300000
+#     - bug # 4398800
+#   users: 108433800

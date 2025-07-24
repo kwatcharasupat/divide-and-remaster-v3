@@ -1,0 +1,25 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-german-hui
+  subset: full/48k
+
+  
+splits:
+  train:
+    duration_prop: 0.7
+  val:
+    duration_prop: 0.1
+  test:
+    duration_prop: 0.2
+
+path:
+  manifest: ${oc.env:RAW_DATA_ROOT}/hui-german/manifest.csv
+
+seed: 43
+
+remake_splits: false

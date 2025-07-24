@@ -1,0 +1,4 @@
+sampling_rate: 44100
+bit_depth: 16
+duration: 60.0
+channels: 1

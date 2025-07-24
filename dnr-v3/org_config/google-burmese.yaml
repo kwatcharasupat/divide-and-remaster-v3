@@ -1,0 +1,20 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-burmese-slr80-google
+  subset: full/48k
+
+data:
+  sources:
+    - glob: slr80-burmese/bur*.wav
+      language: mya
+      gender: female
+
+path:
+  manifest: slr80-burmese/manifest.csv
+
+seed: 42

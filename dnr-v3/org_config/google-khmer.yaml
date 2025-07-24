@@ -1,0 +1,20 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-khmer-slr42-google
+  subset: full/48k
+
+data:
+  sources:
+    - glob: slr42-khmer/km_kh_male/wavs/khm*.wav
+      language: khm
+      gender: male
+
+path:
+  manifest: slr42-khmer/manifest.csv
+
+seed: 42

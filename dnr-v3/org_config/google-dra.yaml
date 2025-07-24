@@ -1,0 +1,58 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-dra-slr-google
+  subset: full/48k
+
+data:
+  sources:
+    - glob: slr79-kannada/knf*.wav
+      language: kan
+      family: dravidian
+      gender: female
+
+    - glob: slr79-kannada/knm*.wav
+      language: kan
+      family: dravidian
+      gender: male
+
+
+    - glob: slr63-malayalam/mlm*.wav
+      language: mal
+      family: dravidian
+      gender: male
+
+    - glob: slr63-malayalam/mlf*.wav
+      language: mal
+      family: dravidian
+      gender: female
+
+
+    - glob: slr65-tamil/taf*.wav
+      language: tam
+      family: dravidian
+      gender: female
+
+    - glob: slr65-tamil/tag*.wav
+      language: tam
+      family: dravidian
+      gender: male
+
+
+    - glob: slr66-telugu/tef*.wav
+      language: tel
+      family: dravidian
+      gender: female
+
+    - glob: slr66-telugu/tem*.wav
+      language: tel
+      family: dravidian
+      gender: male
+path:
+  manifest: dra-google/manifest.csv
+
+seed: 42

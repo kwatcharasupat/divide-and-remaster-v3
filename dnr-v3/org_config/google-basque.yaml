@@ -1,0 +1,24 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-basque-slr76-google
+  subset: full/48k
+
+data:
+  sources:
+    - glob: slr76-basque/euf*.wav
+      language: eus
+      gender: female
+
+    - glob: slr76-basque/eum*.wav
+      language: eus
+      gender: male
+
+path:
+  manifest: slr76-basque/manifest.csv
+
+seed: 42

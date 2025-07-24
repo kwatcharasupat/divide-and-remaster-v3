@@ -1,0 +1,20 @@
+
+# cc 1.0 licenses 
+
+## cc-by
+
+- url: 'http://creativecommons.org/licenses/by/1.0/fi/'
+  license: cc-by/1.0/fi
+  license_family: cc-by
+
+## cc-sampling+
+
+- url: 'http://creativecommons.org/licenses/sampling+/1.0/'
+  license: cc-sampling+/1.0
+  license_family: cc-sampling+
+
+## cc-nc-sampling+
+
+- url: 'http://creativecommons.org/licenses/nc-sampling+/1.0/'
+  license: nc-sampling+/1.0
+  license_family: cc-nc-sampling+

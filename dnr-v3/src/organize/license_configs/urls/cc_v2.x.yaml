@@ -1,0 +1,145 @@
+# cc 2.1 licenses
+
+## cc-by-nc
+
+- url: 'http://creativecommons.org/licenses/by-nc/2.1/jp/'
+  license: cc-by-nc/2.1/jp
+  license_family: cc-by-nc
+
+## cc-by-nc-sa
+
+- url: 'http://creativecommons.org/licenses/by-nc-sa/2.1/jp/'
+  license: cc-by-nc-sa/2.1/jp
+  license_family: cc-by-nc-sa
+
+## cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.1/jp/'
+  license: cc-by-nc-nd/2.1/jp
+  license_family: cc-by-nc-nd
+
+# cc 2.5 licenses
+
+## cc-by
+
+- url: 'http://creativecommons.org/licenses/by/2.5/ca/'
+  license: cc-by/2.5/ca
+  license_family: cc-by
+
+- url: 'http://creativecommons.org/licenses/by/2.5/it/'
+  license: cc-by/2.5/it
+  license_family: cc-by
+
+## cc-by-sa
+
+- url: 'http://creativecommons.org/licenses/by-sa/2.5/ca/'
+  license: cc-by-sa/2.5/ca
+  license_family: cc-by-sa
+
+- url: 'http://creativecommons.org/licenses/by-sa/2.5/pt/'
+  license: cc-by-sa/2.5/pt
+  license_family: cc-by-sa
+
+## cc-by-nc
+
+- url: 'http://creativecommons.org/licenses/by-nc/2.5/'
+  license: cc-by-nc/2.5
+  license_family: cc-by-nc
+
+- url: 'http://creativecommons.org/licenses/by-nc/2.5/br/'
+  license: cc-by-nc/2.5/br
+  license_family: cc-by-nc
+
+- url: 'http://creativecommons.org/licenses/by-nc/2.5/ca/'
+  license: cc-by-nc/2.5/ca
+  license_family: cc-by-nc
+
+- url: 'http://creativecommons.org/licenses/by-nc/2.5/ch/'
+  license: cc-by-nc/2.5/ch
+  license_family: cc-by-nc
+
+## cc-by-nc-sa
+
+- url: 'http://creativecommons.org/licenses/by-nc-sa/2.5/ca/'
+  license: cc-by-nc-sa/2.5/ca
+  license_family: cc-by-nc-sa
+
+- url: 'http://creativecommons.org/licenses/by-nc-sa/2.5/il/'
+  license: cc-by-nc-sa/2.5/il
+  license_family: cc-by-nc-sa
+
+- url: 'http://creativecommons.org/licenses/by-nc-sa/2.5/it/'
+  license: cc-by-nc-sa/2.5/it
+  license_family: cc-by-nc-sa
+
+- url: 'http://creativecommons.org/licenses/by-nc-sa/2.5/mx/'
+  license: cc-by-nc-sa/2.5/mx
+  license_family: cc-by-nc-sa
+
+- url: 'http://creativecommons.org/licenses/by-nc-sa/2.5/scotland/'
+  license: cc-by-nc-sa/2.5/scotland
+  license_family: cc-by-nc-sa
+
+## cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.5/'
+  license: cc-by-nc-nd/2.5
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.5/ar/'
+  license: cc-by-nc-nd/2.5/ar
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.5/au/'
+  license: cc-by-nc-nd/2.5/au
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.5/ca/'
+  license: cc-by-nc-nd/2.5/ca
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.5/ch/'
+  license: cc-by-nc-nd/2.5/ch
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.5/co/'
+  license: cc-by-nc-nd/2.5/co
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.5/dk/'
+  license: cc-by-nc-nd/2.5/dk
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.5/hu/'
+  license: cc-by-nc-nd/2.5/hu
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.5/il/'
+  license: cc-by-nc-nd/2.5/il
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.5/it/'
+  license: cc-by-nc-nd/2.5/it
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.5/mx/'
+  license: cc-by-nc-nd/2.5/mx
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.5/pt/'
+  license: cc-by-nc-nd/2.5/pt
+  license_family: cc-by-nc-nd
+
+- url: 'http://creativecommons.org/licenses/by-nc-nd/2.5/se/'
+  license: cc-by-nc-nd/2.5/se
+  license_family: cc-by-nc-nd
+
+## cc-by-nd
+
+- url: 'http://creativecommons.org/licenses/by-nd/2.5/ca/'
+  license: cc-by-nd/2.5/ca
+  license_family: cc-by-nd
+
+- url: 'http://creativecommons.org/licenses/by-nd/2.5/it/'
+  license: cc-by-nd/2.5/it
+  license_family: cc-by-nd

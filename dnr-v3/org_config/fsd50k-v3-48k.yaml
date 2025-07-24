@@ -1,0 +1,32 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - dsp/trim
+  - hydra/default
+  - _self_
+
+dataset:
+  name: effects-fsd50k
+  subset: full-v3/{license}/{class_func}/48k
+  split_by_license: true
+  split_by_function: true
+
+splits:
+  train:
+    - path: fsd50k/FSD50K.dev_audio
+      split_metadata: fsd50k/FSD50K.ground_truth/dev.csv
+      # class_metadata: fsd50k/FSD50K.metadata/collection/collection_dev.csv
+      license_metadata: fsd50k/FSD50K.metadata/dev_clips_info_FSD50K.json
+  val:
+    - path: fsd50k/FSD50K.dev_audio
+      split_metadata: fsd50k/FSD50K.ground_truth/dev.csv
+      # class_metadata: fsd50k/FSD50K.metadata/collection/collection_dev.csv
+      license_metadata: fsd50k/FSD50K.metadata/dev_clips_info_FSD50K.json
+  test:
+    - path: fsd50k/FSD50K.eval_audio
+      split_metadata: fsd50k/FSD50K.ground_truth/eval.csv
+      # class_metadata: fsd50k/FSD50K.metadata/collection/collection_eval.csv
+      license_metadata: fsd50k/FSD50K.metadata/eval_clips_info_FSD50K.json
+
+class_specs: fsd50k/FSD50K.ground_truth/vocabulary.csv
+class_mapping_version: v3

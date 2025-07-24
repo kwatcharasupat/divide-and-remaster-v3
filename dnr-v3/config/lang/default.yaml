@@ -1,0 +1,187 @@
+
+# West Germanic languages
+
+eng:
+  members:
+    - eng
+  users: 1515231760
+
+deu:
+  members:
+    - deu
+  users: 133908920
+
+# North Germanic languages
+
+nordic:
+  members:
+    - swe # 13,246,270
+    - dan # 5,812,800
+    - nor # 5,416,130
+    - isl # 326,320
+    - fao # 69,000
+  users: 24870520
+
+
+# Romance languages
+
+spa:
+  members:
+    - spa
+  users: 559520830
+
+fra:
+  members:
+    - fra
+  users: 311575110
+
+ita:
+  members:
+    - ita
+  users: 66789200 
+
+por:
+  members:
+    - por
+  users: 263838450
+
+cat:
+  members:
+    - cat
+  users: 9299570
+
+glg:
+  members:
+    - glg
+  users: 3378300
+
+# Slavic
+
+east-slavic:
+  members:
+    - rus # 255,392,520
+    - ukr # 38,919,810
+    - bel # 3,753,160
+  users: 322936010
+
+
+turkic:
+  members:
+    - tur # 90,095,180
+    - kaz # 16,579,380
+    - azj # 10,293,370
+    - tuk # 6,095,620
+    - uzn # 29,088,130
+    - uzs # 4,582,900
+    - uig # 10,552,072
+    - tat # 4,839,430
+  users: 172126082
+
+
+
+# CJK languages
+
+zho:
+  members:
+    - cmn # l1+l2: 1,140,361,330
+    - nan # l1+l2: 50,641,290
+    - yue # l1+l2: 86,646,890 
+  users: 
+    1352664750 # l1 of zho
+    # 1277649510 (sum of l1+l2 of cmn, nan, yue)
+
+
+jpn:
+  members:
+    - jpn
+  users: 123466720 
+
+# South Asian languages
+
+indo-aryan:
+  members:
+    - hin # 608,848,150
+    - urd # 237,880,270
+    - ben # 278,184,510
+    - mar # 99,262,870 
+    - guj # 62,673,620
+    - pan # 37,174,310 
+    - npi # 31,979,760
+  users: 1356003490
+
+dravidian:
+  members:
+    - tam # 86,724,670
+    - tel # 95,810,890
+    - kan # 58,706,690
+    - mal # 37,738,880
+  users: 278981130
+
+# Maritime Southeast Asian languages
+
+malayo-chamic:
+  members:
+    - zlm # 19179470
+    - ind # 199002320
+    - ace # 2840000
+    - min # 4880000
+  users: 225901790
+
+other-malayo-polynesian:
+  members:
+    - jav # 68335000
+    - sun # 32400000
+    - ban # 3300000
+    - bug # 4398800
+  users: 108433800
+
+
+# Mainland Southeast Asian languages
+
+# other-sino-tibetan:
+mya:
+  members:
+    - mya
+  users: 43165690
+
+mon-khmer:
+  members:
+    - khm # 17,600,950
+    - vie # 86,282,000 
+  users: 103882950
+
+
+# African languages
+
+bantoid:
+  members:
+    - swa # 86,515,480
+    - lin # 40,540,300
+    - zul # 27,804,600 
+    - sna # 10,877,780 
+    - sot # 13,524,700 
+    - tsn # 13,745,730
+    - xho # 19,216,300
+  users: 212224890 # wikipedia: 350 M
+
+# other-benue-congo:
+yor:
+  members:
+    - yor
+  users: 47195900
+
+afr:
+  members:
+    - afr
+  users: 18093000
+
+eus:
+  members:
+    - eus
+  users: 1086860
+
+arabic:
+  members:
+    - ara
+    - apc
+  users: 413159790

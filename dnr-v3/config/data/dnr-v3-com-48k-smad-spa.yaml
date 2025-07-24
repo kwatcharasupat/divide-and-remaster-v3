@@ -1,0 +1,34 @@
+speech:
+  # - subset: deu
+  #   src: 
+  #     - speech-german-hui/full/48k
+  # - subset: eng
+  #   src: 
+  #     - speech-english-slr12-librispeech-hq/clean-100h/48k
+  # - subset: cmn
+  #   src: 
+  #     - speech-chinese-slr93-aishell3/full/48k
+  - subset: spa
+    src: 
+      - speech-spanish-slr-google/full/48k
+
+music:
+  - subset: default
+    clone:
+      src: ${oc.env:CLEANED_DATA_ROOT}/dnr-v3-com-48k-mne-intermediates-v2
+      subset: default
+      submix: music
+
+sfx_fg:
+  - subset: default
+    clone:
+      src: ${oc.env:CLEANED_DATA_ROOT}/dnr-v3-com-48k-mne-intermediates-v2
+      subset: default
+      submix: sfx_fg
+
+sfx_bg:
+  - subset: default
+    clone:
+      src: ${oc.env:CLEANED_DATA_ROOT}/dnr-v3-com-48k-mne-intermediates-v2
+      subset: default
+      submix: sfx_bg

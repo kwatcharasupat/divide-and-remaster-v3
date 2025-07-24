@@ -1,0 +1,12 @@
+defaults:
+  - audio/48k-24bit-mono
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: speech-hindi-indictts
+  subset: full/48k
+
+
+seed: 43

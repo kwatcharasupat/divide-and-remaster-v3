@@ -1,0 +1,42 @@
+defaults:
+  - audio/48k-24bit-mono-lr
+  - data/default
+  - hydra/default
+  - _self_
+
+dataset:
+  name: music-fma
+  subset: full/{license}/{inst}/48k-lr
+  split_by_license: true
+  split_by_function: true
+
+  
+splits:
+  train:
+    - path: fma/fma_full
+      metadata: fma/fma_metadata/tracks.csv
+      raw_metadata: fma/fma_metadata/raw_tracks.csv
+      echonest_metadata: fma/fma_metadata/echonest.csv
+  val:
+    - path: fma/fma_full
+      metadata: fma/fma_metadata/tracks.csv
+      raw_metadata: fma/fma_metadata/raw_tracks.csv
+      echonest_metadata: fma/fma_metadata/echonest.csv
+  test:
+    - path: fma/fma_full
+      metadata: fma/fma_metadata/tracks.csv
+      raw_metadata: fma/fma_metadata/raw_tracks.csv
+      echonest_metadata: fma/fma_metadata/echonest.csv
+
+fma:
+  subset: full
+  license_filter:
+    - com
+  instrumentalness_threshold: 0.8
+  chunk: true
+  chunk_size_seconds: 30.0
+
+split_name_map:
+  train: training
+  val: validation
+  test: test
