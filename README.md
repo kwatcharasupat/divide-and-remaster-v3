@@ -16,7 +16,7 @@ For the model trained on DnR v3, go [here](https://github.com/kwatcharasupat/ban
 
 ## Recreating the dataset
 
-The source code for recreating the dataset will be made available in this repository by September. (You can imagine that pulling data from 40 different datasets leads to a very messy source code 😭. I'm trying to standardize it so that it's easier to develop on in future iterations)
+The source code for recreating the dataset in in `dnr-v3`.
 
 ## License
 
